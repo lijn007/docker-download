@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: bitnami/dokuwiki
-      DOCKER_ARCHIVE_NAME: dokuwiki.tar
+      DOCKER_IMAGE: portainer/agent
+      DOCKER_ARCHIVE_NAME: portainer.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
