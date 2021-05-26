@@ -9,7 +9,7 @@ jobs:
 
     env:
       DOCKER_IMAGE: mongo/mongo
-      DOCKER_ARCHIVE_NAME: easymock.tar
+      DOCKER_ARCHIVE_NAME: mongo.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
