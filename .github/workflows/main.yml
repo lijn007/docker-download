@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: mongo
-      DOCKER_ARCHIVE_NAME: mongo.tar
+      DOCKER_IMAGE: redis
+      DOCKER_ARCHIVE_NAME: redis.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
