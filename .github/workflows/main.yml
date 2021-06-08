@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: sebp/elk
-      DOCKER_ARCHIVE_NAME: elk.tar
+      DOCKER_IMAGE: rabbitmq
+      DOCKER_ARCHIVE_NAME: rabbitmq-image.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
