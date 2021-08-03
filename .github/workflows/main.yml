@@ -9,7 +9,7 @@ jobs:
 
     env:
       DOCKER_IMAGE: prom/prometheus
-      DOCKER_ARCHIVE_NAME: prom/prometheus.tar
+      DOCKER_ARCHIVE_NAME: prometheus.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
