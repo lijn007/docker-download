@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: prom/node-exporter
-      DOCKER_ARCHIVE_NAME: node-exporter.tar
+      DOCKER_IMAGE: grafana/grafana
+      DOCKER_ARCHIVE_NAME: grafana.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
