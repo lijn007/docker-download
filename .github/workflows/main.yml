@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: redis:6.2.4
-      DOCKER_ARCHIVE_NAME: redis.6.2.4.tar
+      DOCKER_IMAGE: prom/prometheus
+      DOCKER_ARCHIVE_NAME: prom/prometheus.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
