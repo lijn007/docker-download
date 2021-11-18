@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: grafana/grafana
-      DOCKER_ARCHIVE_NAME: grafana.tar
+      DOCKER_IMAGE: gethue/hue
+      DOCKER_ARCHIVE_NAME: hue.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
