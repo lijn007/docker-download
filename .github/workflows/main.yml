@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: redis:5.0
-      DOCKER_ARCHIVE_NAME: redis5.tar
+      DOCKER_IMAGE: hanchuanchuan/goinception
+      DOCKER_ARCHIVE_NAME: goinception.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
