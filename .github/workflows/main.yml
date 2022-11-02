@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: jc21/nginx-proxy-manager
-      DOCKER_ARCHIVE_NAME: nginx-proxy-manager.tar
+      DOCKER_IMAGE: fiscoorg/fisco-webase:v2.7.2
+      DOCKER_ARCHIVE_NAME: fisco-webase.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
