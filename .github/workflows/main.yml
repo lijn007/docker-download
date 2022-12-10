@@ -8,7 +8,7 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: gitlab/gitlab-ce:latest
+      DOCKER_IMAGE: gitlab/gitlab-ce
       DOCKER_ARCHIVE_NAME: gitlab-ce.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
