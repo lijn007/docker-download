@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: rabbitmq:management
-      DOCKER_ARCHIVE_NAME: rabbitmq_mg.tar
+      DOCKER_IMAGE: gitlab-ce:latest
+      DOCKER_ARCHIVE_NAME: gitlab-ce.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
