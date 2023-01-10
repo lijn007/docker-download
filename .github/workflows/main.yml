@@ -8,8 +8,8 @@ jobs:
     #环境变量设置：https://docs.github.com/en/actions/reference/environment-variables
 
     env:
-      DOCKER_IMAGE: season/fastdfs
-      DOCKER_ARCHIVE_NAME: fastdfs.tar
+      DOCKER_IMAGE: hhyo/archery:v1.9.1
+      DOCKER_ARCHIVE_NAME: archery.tar
       #设置runs-on时区
       TZ: Asia/Shanghai
     steps:
